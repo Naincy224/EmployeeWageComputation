@@ -21,5 +21,15 @@ public class EmpWageComput {
 
 		return absentPresent;
 	}
-
+	
+	public int dailyWageOfEmployee(String presentOrAbsent) {
+		int totalSalary=0;
+		int totalWorkingHours=8;
+		int wagePerHrs=20;
+		if(presentOrAbsent.equals("present")) {
+			totalSalary=totalWorkingHours*wagePerHrs;
+		}
+		return totalSalary ;
+		
+	}
 }
