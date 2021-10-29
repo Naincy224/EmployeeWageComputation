@@ -10,7 +10,7 @@ public class Mainclass {
 		String presentOrAbsent=empObj.presentOrAbsent();
 		System.out.println("The employee is : "+presentOrAbsent);
 		System.out.println("The per day total salary of this employee is :  "+empObj.dailyWageOfEmployee(presentOrAbsent));
-		
+		empObj.SwitchEmployeeFunction("dailyWageOfEmployee");
 	}
 
 }
