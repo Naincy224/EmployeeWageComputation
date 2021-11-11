@@ -8,7 +8,7 @@ public class EmpWageComput {
 
 	}
 
-	// Adding presentAbsent functionality for UC1
+	// Adding presentAbsent functionality for UC1 and UC7
 	public String presentOrAbsent() {
 		double randomNum = Math.floor(Math.random() * 10) % 2;
 		String absentPresent;
@@ -22,7 +22,7 @@ public class EmpWageComput {
 		return absentPresent;
 	}
 
-	// Adding dailywage of employee functionality for UC2
+	// Adding dailywage of employee functionality for UC2 and UC7
 	public int dailyWageOfEmployee(String presentOrAbsent) {
 		int totalSalary = 0;
 		int totalWorkingHours = 8;
@@ -34,7 +34,7 @@ public class EmpWageComput {
 
 	}
 
-//Adding switch case for the funcationalities for UC
+//Adding switch case for the funcationalities for UC4 and UC7
 	public void SwitchEmployeeFunction(String switchToOn) {
 
 		switch (switchToOn) {
@@ -54,7 +54,7 @@ public class EmpWageComput {
 					"Please Enter a valid Switch which are 'presentOrAbsent','printWelcomeMessage','dailyWageOfEmployee'");
 		}
 	}
-	//Adding wages per month functionality for UC5
+	//Adding wages per month functionality for UC5 and UC7
 	public int wagesPerMonth() {
 		
 		int totalSalaryPerMonth = 0;
